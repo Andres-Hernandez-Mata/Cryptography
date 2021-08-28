@@ -11,6 +11,8 @@ from Cryptodome.Cipher import PKCS1_OAEP
 import binascii
 import ast
 
+# pip install -r requirements.txt
+
 def main():
 	
 	key = RSA.generate(3072)
